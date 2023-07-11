@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo-demo/demo",
+  "private": true,
+  "author": "jane <jianqiang@gantsoftware.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@monorepo-demo/components": "workspace:^",
+    "umi": "^4.0.72"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "typescript": "^5.1.6"
+  }
+}
