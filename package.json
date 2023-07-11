@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm --filter packages demo dev",
+    "start": "pnpm --filter @monorepo-demo/demo dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
